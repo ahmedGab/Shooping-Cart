@@ -1,0 +1,114 @@
+body{
+    background:url(images/osman-rana-yM3T1vYh8Oc-unsplash.jpg);
+    margin-top: 80px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    position: fixed;
+    z-index: 10;
+    margin-top: -80px;
+    padding-right: 30px;
+    width: 100%;
+
+}
+
+
+
+.product{
+    margin: 30px 30px 30px 0;
+  
+}
+.card-light{
+    cursor: pointer;
+}
+.card-body{
+    text-align: center;
+}
+
+
+.promo {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 13%;
+    left: 16px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 10px 25px;
+}
+
+
+.card-light:hover .promo{
+    display:block;
+}
+
+.fa-heart-o:hover{
+    color: rgba(255, 0, 0, 0.596);
+}
+.fa-shopping-cart:hover{
+    color: rgba(86, 241, 80, 0.685);
+}
+.carousel-inner{
+    height: 500px;
+}
+
+.card-body{
+    color: white;
+    font-size: 10px;
+    margin-top:-15px ;
+    margin-bottom: 0;
+}
+.card-text{
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.767);
+    margin-top: 20px;
+}
+
+.modal-content{
+    background-color: rgba(62, 64, 65, 0.137) !important ;
+    font-size: 20px;
+    color: white;
+    width: 800px;
+    font-size: 5px;
+}.Div1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 10px;
+}
+
+.modal-body input{
+    width: 100px;
+    font-size: 30px;
+}
+#prix{
+    position: absolute;
+    color:white;
+left: 0;
+}
+
+
+@media screen and (max-width: 1059px) {
+    .modal-content{
+        width: 600px;
+    }
+  }
+  @media screen and (max-width: 693px) {
+    .modal-content{
+        width: 500px;
+    }
+  }
+  @media screen and (max-width: 547px) {
+    .modal-content{
+        margin-left: 50px;
+        width: 400px;
+    }
+    #prix{
+        font-weight: 800;
+
+        font-size: 15px;
+    }
+  }
